@@ -111,8 +111,8 @@ def f(x):
         return
 
     
-arg = 1
-print(f(arg))
+# arg = 1
+# print(f(arg))
 
 
 #print(f(1)) # Целое

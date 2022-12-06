@@ -8,3 +8,9 @@ for i in range(len(list)):
         randomlist.append(list[randomindex[i]])
 
 print(f'Перемешанный список: \n{randomlist}')
+
+
+# 2 вариант
+# for i in range(len(mass)-1):
+#         n = ranint(0, len(mass)-1)
+#         mass[i], mass[n] = mass[n], mass[i]
