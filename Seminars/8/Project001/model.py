@@ -2,13 +2,21 @@ import sympy
 
 def get_result(expr, mode):
     if mode == 2:
-        result = sympy.simplify(expr)
         x = sympy.Symbol('x')
-        result = sympy.solve(expr, x)
-        return result
+        try:
+            result = sympy.simplify(expr)
+            result = sympy.solve(expr, x)
+            return result
+        except:
+            result = 'Incorrect input'
+            return result
     elif mode == 1 or 3:
-        result = sympy.simplify(expr)
-        return result
+        try:
+            result = sympy.simplify(expr)
+            return result
+        except:
+            result = 'Incorrect input'
+            return result
 
 
 

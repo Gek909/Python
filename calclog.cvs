@@ -5,3 +5,8 @@
 23-12 18:58; Solution of the equations; 2*x + 5 ; Roots: [-5/2]
 23-12 18:59; Solution of the equations; 2*x**2 + 16; Roots: [-2*sqrt(2)*I, 2*sqrt(2)*I]
 23-12 19:00; Symplifying polynomials; 5*x - 3*x + 16 - 8; Symplyfied polynomial: 2*x + 8
+24-12 14:27; Solution of the equations; 3*x^2; Roots: [0]
+24-12 14:30; Solution of the equations; x+5+x^^2; Roots: None
+24-12 14:33; Solution of the equations; x+5+x^^2; Roots: None
+24-12 14:36; Solution of the equations; x+5+x^^2; Roots: Incorrect input
+24-12 14:40; Solution of the equations; x+5+x^^2; Incorrect input

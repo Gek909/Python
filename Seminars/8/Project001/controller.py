@@ -19,6 +19,9 @@ def run_calc():
         result = model.get_result(expr, mode)
         view.show_result(expr, result, mode)
         logger.log_result(expr, result, mode)
+    elif mode == 4:
+        history = logger.get_history()
+        view.show_history(history)
     else: 
         view.error_mode()
 
