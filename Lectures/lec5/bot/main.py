@@ -2,7 +2,7 @@
 # from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 # from bot_commands import *
 
-# app = ApplicationBuilder().token("5905435408:AAHOqui34EzQSMUdOV4KAxJWmBU3LEXjOoY").build()
+# app = ApplicationBuilder().token("TOKEN").build()
 
 # app.add_handler(CommandHandler("namaste", namaste_command))
 # app.add_handler(CommandHandler("time", time_command))
