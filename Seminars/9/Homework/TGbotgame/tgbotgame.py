@@ -18,8 +18,6 @@ def send_welcome(message):
 За один ход можно забрать не более чем 28 конфет. \
 Все конфеты оппонента достаются сделавшему последний ход.")
     
-count = 117
-first_player = find_first_player()
 game = False
 
 
@@ -28,6 +26,8 @@ def send_welcome(message):
     global first_player
     global count
     global game
+    first_player = find_first_player()
+    count = 117
     game = True
     if first_player == "Игрок":
 	    bot.send_message(message.chat.id, f"Игра началась, удачи! \n\
