@@ -20,7 +20,6 @@ def send_welcome(message):
     
 game = False
 
-
 @bot.message_handler(commands=['startnewgame'])
 def send_welcome(message):
     global first_player
